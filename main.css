@@ -1,0 +1,31 @@
+@import url(https://db.onlinewebfonts.com/c/2da952d097bffd198ec0f0aa3fdd6804?family=JejuHallasan);
+*{
+    font-family: "JejuHallasan";
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+header img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.btn{
+    border: 1px solid #AB21AB;
+    border-radius: 25PX;
+    padding: 2px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    color:#AB21AB;
+    cursor: pointer;
+}
+.pervy_bk{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+
+}
