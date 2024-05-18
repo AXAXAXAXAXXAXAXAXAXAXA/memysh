@@ -60,6 +60,7 @@ header img{
     background-color: #AB21AB;
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
 }
 .write_me{
     display: flex;
@@ -67,7 +68,61 @@ header img{
     background-color:#7b007b;
 }
 .write_me .padval{
-    width: 33%;
+    padding-top: 10px;     
+    display: flex;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 10px;
+}
+.model{
+    top: 0px;
+    left: 0px;
+    display: none;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form{  
+    width: 25%;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);    
+    display: flex;      
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.overlay{
+    top: 0px;
+    left: 0px;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    z-index: 0;
+    background-color:rgba(0,0,0,0.7) ;
+}
+.message{
+    border-radius: 10px;
+    height: 35px;
+    width: 175px;
+}
+.nsl{
+    border-radius: 10px;
+    height: 35px;
+    width: 175px;
+}
+.email{
+    border-radius: 10px;
+    height: 35px;
+    width: 175px;
+}
+.number{
+    border-radius: 10px;
+    height: 35px;
+    width: 175px;
 }
