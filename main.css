@@ -30,6 +30,9 @@ header img{
     font-size: 30px;
     text-align: center;
 }
+.p{
+    color: white;
+}
 .pics{
     display: flex;
     flex-direction:column;
@@ -53,7 +56,6 @@ header img{
         border-radius: 10px;
         color: white;
         border-color: white;
-
     }
 .names{
     text-align: center;
