@@ -3,6 +3,7 @@
     font-family: "JejuHallasan";
 }
 header{
+    background-color: #4BA173;
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -58,7 +59,7 @@ header img{
     font-size: 20px;
 }
 .vtoroy_bk{
-    background-color: #63D297;
+    background-color: #202729;
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
