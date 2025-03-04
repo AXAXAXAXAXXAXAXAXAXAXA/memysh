@@ -15,13 +15,13 @@ header img{
     border-radius: 50%;
 }
 .btn{
-    border: 1px solid #AB21AB;
+    border: 1px solid white;
     border-radius: 25PX;
     padding: 2px;
     width: 150px;
     height: 25px;
     text-align: center;
-    color:#AB21AB;
+    color: white;
     cursor: pointer;
 }
 .pervy_bk{
